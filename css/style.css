@@ -93,3 +93,7 @@ div{
     width: 15%;
     display: inline;
 }
+
+.navbar-brand{
+    color: rgba(255,255,255,.3);
+}
