@@ -12,8 +12,6 @@ body{
     margin: 2%;
     padding: 2%;
     border: solid black 2px;
-
-
 }
 
 .products h2 {
@@ -35,4 +33,63 @@ body{
 .partners h1 {
     text-align: center;
 
+}
+
+div{
+    display: inline;
+    margin-left: 7%;
+    margin-bottom: 5%;
+    margin-top: 3%;
+}
+
+.abakus img{
+    width: 15%;
+    height: 3%;
+    display: inline;
+}
+.agmar img{
+    width: 15%;
+    display: inline;
+
+}
+.centurion img{
+    width: 15%;
+    display: inline;
+}
+.delta img{
+    width: 15%;
+    display: inline;
+}
+.dre img{
+    width: 15%;
+    display: inline;
+}
+.gamet img{
+    width: 15%;
+    display: inline;
+}
+.intenso img{
+    width: 15%;
+    display: inline;
+
+}
+.krispol img{
+    width: 15%;
+    display: inline;
+}
+.nomet img{
+    width: 10%;
+    display: inline;
+}
+.pol-skone img{
+    width: 15%;
+    display: inline;
+}
+.voster img{
+    width: 15%;
+    display: inline;
+}
+.wikęd img{
+    width: 15%;
+    display: inline;
 }
