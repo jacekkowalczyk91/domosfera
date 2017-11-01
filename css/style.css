@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0 auto;
+}
+
+
+.about h1 {
+   margin-left: 5%;
+}
+
+.about p{
+    margin: 2%;
+    padding: 2%;
+    border: solid black 2px;
+
+
+}
+
+.products h2 {
+    margin-left: 5%;
+}
+
+.products li{
+    text-decoration: none;
+    list-style: none;
+    display: inline;
+    margin-left: 10%;
+
+}
+
+.projects h3 {
+    margin-left: 5%;
+}
+
+.partners h1 {
+    text-align: center;
+
+}
