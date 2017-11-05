@@ -182,20 +182,93 @@ nav.navbar.navbar-default.navbar-fixed-top.navbar-inverse{
 
 }
 .windows{
+    position: relative;
+}
+.windows p{
+    width: 30%;
+    padding: 1%;
+    margin-left: 40%;
+    position:absolute;
+    top: 20%;
 
+}
+
+.windows img{
+    margin-left: 10%;
+}
+
+.windows h3{
+    margin-left: 50%;
 }
 .doors{
+    position: relative;
+}
+.doors p{
+    width: 30%;
+    padding: 1%;
+    margin-left: 40%;
+    position:absolute;
+    top: 20%;
+}
+.doors h3 {
+    margin-left: 50%;
+}
 
+.doors img{
+    width: 10%;
+    margin-left: 13%;
 }
 .gates{
+    position: relative;
+}
+.gates p{
+    width: 30%;
+    padding: 1%;
+    margin-left: 40%;
+    position:absolute;
+    top: 20%;
+}
+.gates h3{
+    margin-left: 50%;
+}
 
+.gates img{
+    width: 16%;
+    margin-left: 10%;
 }
 .blinds{
-
+    position: relative;
 }
+.blinds p{
+    width: 30%;
+    padding: 1%;
+    margin-left: 40%;
+    position:absolute;
+    top: 20%;
+}
+.blinds h3{
+    margin-left: 50%;
+}
+
 .blinds img{
-    width: 15%;
+    width: 16%;
+    margin-left: 10%;
 }
 .sills{
+    position: relative;
+}
+.sills p{
+    width: 30%;
+    padding: 1%;
+    margin-left: 40%;
+    position:absolute;
+    top: 10%;
+}
+.sills img{
+    width: 17%;
+    margin-left: 10%;
+}
 
+.sills h3{
+    margin-left: 50%;
 }
