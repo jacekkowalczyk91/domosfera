@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0 auto;
-    background-color: #4D4948;
+
     font-family: 'Lato', sans-serif;
 }
 
@@ -179,5 +179,23 @@ nav.navbar.navbar-default.navbar-fixed-top.navbar-inverse{
 
 .infoD{
     background: white;
+
+}
+.windows{
+
+}
+.doors{
+
+}
+.gates{
+
+}
+.blinds{
+
+}
+.blinds img{
+    width: 15%;
+}
+.sills{
 
 }
