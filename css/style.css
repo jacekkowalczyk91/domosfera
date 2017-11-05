@@ -1,7 +1,10 @@
 body{
     margin: 0;
     padding: 0 auto;
+    background-color: #4D4948;
+    font-family: 'Lato', sans-serif;
 }
+
 
 
 .about h1 {
@@ -35,7 +38,7 @@ body{
 
 }
 
-div{
+.partners div{
     display: inline;
     margin-left: 7%;
     margin-bottom: 5%;
@@ -135,7 +138,7 @@ div{
     width: 0;
     height: 4px;
     transition: width .4s;
-    background: rgb(147, 62, 197);
+    background: #E47817;
 }
 
 .nav.navbar-nav.navbar-right li:hover::after {
@@ -164,15 +167,17 @@ ul li a{
 }
 
 #navbar-collapse-1{
-    height: 100px;
+    height: 110px;
 }
 nav.navbar.navbar-default.navbar-fixed-top.navbar-inverse{
-    height: 20%;
-    line-height: 1%;
+    height: 5%;
+    line-height: 3%;
+}
+.nav.navbar-nav.navbar-right li {
+    margin-top: -5%;
 }
 
-a.move{
-    position: fixed;
-    top: -50;
+.infoD{
+    background: white;
 
 }
