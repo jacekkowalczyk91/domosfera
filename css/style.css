@@ -272,3 +272,21 @@ nav.navbar.navbar-default.navbar-fixed-top.navbar-inverse{
 .sills h3{
     margin-left: 50%;
 }
+
+.form-group{
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 60%;
+}
+#question1.form-control{
+    border: solid black;
+}
+.forma{
+    margin-top: 3%;
+}
+
+#map{
+    width: 100%;
+    height: 400px;
+    background-color: gray;
+}
