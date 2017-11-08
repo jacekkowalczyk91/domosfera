@@ -147,7 +147,7 @@ nav.navbar.navbar-default.navbar-fixed-top.navbar-inverse{
 }
 
 .parallax{
-    background-image: url('images/');
+    background: url('../tłoDomosfera.jpg');
     height: 800px;
     background-attachment: fixed;
     background-position:center;
