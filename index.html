@@ -20,9 +20,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 
 </head>
-<body>
+<body class="container">
 <div class="wrap">
-    <header>
+    <header id="company">
         <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
             <div class="container">
                 <div class="navbar-header">
@@ -36,11 +36,11 @@
                 <div class="collapse navbar-collapse"
                      id="navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a class="move">Firma</a></li>
-                        <li><a class="move">Produkty</a></li>
-                        <li><a class="move more">Zrealizowame projekty</a></li>
-                        <li><a class="move more">Partnerzy</a></li>
-                        <li><a class="move more">Kontakt</a></li>
+                        <li><a class="move" href="#company">Firma</a></li>
+                        <li><a class="move" href="#products">Produkty</a></li>
+                        <li><a class="move more" href="#projects">Zrealizowame projekty</a></li>
+                        <li><a class="move more" href="#partners">Partnerzy</a></li>
+                        <li><a class="move more" href="#contact">Kontakt</a></li>
                     </ul>
                 </div>
             </div>
@@ -101,152 +101,180 @@
 
     </header>
     <div class="about">
-        <div class="infoD">
-            <h1>Domosfera</h1>
-            <p class="info">
-                Jesteśmy młodą, prężnie rozwijającą się na rynku budowlanym firmą. Działamy od 2013 roku, dostarczając
-                naszym klientom najwyższej jakości rozwiązań w zakresie systemów okiennych firmy Solo, której jesteśmy
-                autoryzowanym przedstawicielem. Przez lata pracy zdobywaliśmy doświadczenie w sprzedaży i przy produkcji
-                stolarki okiennej, które dziś przekłada się na najwyższą jakość oferowanych przez nas usług.
-                W naszej firmie dodatkowo znajdą Państwo: bramy garażowe, drzwi wejściowe, drzwi wewnętrzne, rolety
-                wewnętrzne i zewnętrzne, parapety. Współpracujemy z renomowanymi firmami dbając o najwyższą jakość
-                oferowanych produktów . Oferujemy Państwu profesjonalne doradztwo techniczne, bezpłatny pomiar i wycenę,
-                oraz fachowy montaż wybranych produktów.
-                Serdecznie zapraszamy do zapoznania się z naszą ofertą handlową.
-            </p>
-        </div>
-    </div>
-    <div class="products">
-        <h2>Domosfera - czyli szeroki wybór produktów</h2>
         <div class="container-fluid">
-            <div class="windows row">
-                <div class="col-xs-12 col-lg-6">
-                    <h3>OKNA</h3>
-                    <img src="images/sekcja_produkty/okna.jpg" class="img-responsive"
-                         alt="">
-                </div>
-                <div class="col-xs-12 col-lg-6">
-                    <p>Nasza oferta obejmuje okna drewniane i PCV, idealne do wyposażenia każdego domu. Proponujemy
-                        rozwiązania wysoce energooszczędne, chroniące przed stratami ciepła oraz warunkami z zewnątrz.
-                        Ponadto są to profile wyjątkowo estetyczne, pozwalające na stworzenie budynku atrakcyjnego
-                        wizualnie i zgodnego z własną wizją.
-                        <a href="http://www.grupasolo.pl/oferta-t3/okna-t25">Więcej</a></p>
+            <div class="infoD row">
+                <div class="col-xs-12">
+                    <h1>Domosfera</h1>
+                    <p class="info">
+                        Jesteśmy młodą, prężnie rozwijającą się na rynku budowlanym firmą. Działamy od 2013 roku,
+                        dostarczając
+                        naszym klientom najwyższej jakości rozwiązań w zakresie systemów okiennych firmy Solo, której
+                        jesteśmy
+                        autoryzowanym przedstawicielem. Przez lata pracy zdobywaliśmy doświadczenie w sprzedaży i przy
+                        produkcji
+                        stolarki okiennej, które dziś przekłada się na najwyższą jakość oferowanych przez nas usług.
+                        W naszej firmie dodatkowo znajdą Państwo: bramy garażowe, drzwi wejściowe, drzwi wewnętrzne,
+                        rolety
+                        wewnętrzne i zewnętrzne, parapety. Współpracujemy z renomowanymi firmami dbając o najwyższą
+                        jakość
+                        oferowanych produktów . Oferujemy Państwu profesjonalne doradztwo techniczne, bezpłatny pomiar i
+                        wycenę,
+                        oraz fachowy montaż wybranych produktów.
+                        Serdecznie zapraszamy do zapoznania się z naszą ofertą handlową.
+                    </p>
                 </div>
             </div>
         </div>
-        <div class="doors row">
+        <div class="products" id="products">
+            <h2>Domosfera - czyli szeroki wybór produktów</h2>
+            <div class="container">
+                <div class="windows row">
+                    <div class="col-xs-12 col-lg-6">
+                        <h3>OKNA</h3>
+                        <img src="images/sekcja_produkty/okna.jpg"
+                             class="img-responsive"
+                             alt="">
+                    </div>
+                    <div class="col-xs-12 col-lg-6">
+                        <p>Nasza oferta obejmuje okna drewniane i PCV, idealne do wyposażenia każdego domu. Proponujemy
+                            rozwiązania wysoce energooszczędne, chroniące przed stratami ciepła oraz warunkami z
+                            zewnątrz.
+                            Ponadto są to profile wyjątkowo estetyczne, pozwalające na stworzenie budynku atrakcyjnego
+                            wizualnie i zgodnego z własną wizją.
+                            <a href="http://www.grupasolo.pl/oferta-t3/okna-t25">Więcej</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="doors row">
+                <div class="col-xs-12 col-sm-6">
+                    <h3>DRZWI</h3>
+                    <img src="images/sekcja_produkty/drzwi.jpg"
+                         class="img-responsive"
+                         alt="">
+                </div>
+                <div class="col-xs-12 col-sm-6">
+                    <p>Posiadamy wyjątkowo rozbudowaną ofertę drzwi, wśród których znajdują się modele zewnętrzne oraz
+                        wewnętrzne. Proponujemy skrzydła stalowe, drewniane, aluminiowe oraz PCV o różnych parametrach,
+                        wymiarach, kolorystyce i wzornictwie. U nas znajdziesz modele wyłącznie od najlepszych,
+                        sprawdzonych
+                        producentów.<a href="http://www.grupasolo.pl/oferta-t3/drzwi-zewnetrzne-t24">Więcej</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="gates row">
             <div class="col-xs-12 col-sm-6">
-                <h3>DRZWI</h3>
-                <img src="images/sekcja_produkty/drzwi.jpg" class="img-responsive"
+                <h3>BRAMY</h3>
+                <img src="images/sekcja_produkty/bramy.jpg"
+                     class="img-responsive"
                      alt="">
             </div>
             <div class="col-xs-12 col-sm-6">
-                <p>Posiadamy wyjątkowo rozbudowaną ofertę drzwi, wśród których znajdują się modele zewnętrzne oraz
-                    wewnętrzne. Proponujemy skrzydła stalowe, drewniane, aluminiowe oraz PCV o różnych parametrach,
-                    wymiarach, kolorystyce i wzornictwie. U nas znajdziesz modele wyłącznie od najlepszych, sprawdzonych
-                    producentów.<a href="http://www.grupasolo.pl/oferta-t3/drzwi-zewnetrzne-t24">Więcej</a></p>
+                <p>Prezentujemy szeroki wybór bram garażowych, zarówno przeznaczonych dla budynków mieszkalnych, jak i
+                    przemysłowych. Dostępne są modele segmentowe, uchylne i rozwierne, wszystkie pochodzące od
+                    najlepszych
+                    na rynku producentów. Wyróżniają się dzięki niezwykłej odporności oraz wysokiej funkcjonalności.</p>
+            </div>
+        </div>
+        <div class="blinds row">
+            <div class="col-xs-12 col-sm-6">>
+                <h3>ROLETY i ŻALUZJE</h3>
+                <img src="images/sekcja_produkty/roleta.jpeg"
+                     class="img-responsive"
+                     alt="">
+            </div>
+
+            <div class="col-xs-12 col-sm-6">
+                <p>Naszą ofertę uzupełniają rolety wewnętrzne, pozwalające na zaciemnienie okien w celu ochrony przed
+                    nadmiernym słońcem, a także zapewnienia prywatności mieszkańców. Proponujemy rozwiązania nowoczesne,
+                    wysoce estetyczne i funkcjonalne. Wykorzystują dodatkową kasetkę, w której chowa się tkanina z
+                    prowadnicami.</p>
+            </div>
+        </div>
+
+        <div class="sills row">
+            <div class="col-xs-12 col-sm-6">
+                <h3>PARAPETY</h3>
+                <img src="images/sekcja_produkty/parapet.jpg"
+                     class="img-responsive"
+                     style="padding-top: 5px"
+                     alt="">
+            </div>
+            <div class="col-xs-12 col-sm-6">
+                <p>Wśród oferowanego wyposażenia znajdują się parapety i blaty wewnętrzne oraz zewnętrzne, wykonane z
+                    PCV,
+                    granitu, płyt MDF oraz innych trwałych i estetycznych materiałów. Są dostępne w wielu wersjach
+                    kolorystycznych, co sprawia, że można je swobodnie dopasować do każdego budynku. Proponujemy
+                    rozwiązania
+                    od najlepszych producentów.</p>
             </div>
         </div>
     </div>
-    <div class="gates row">
-        <div class="col-xs-12 col-sm-6">
-            <h3>BRAMY</h3>
-            <img src="images/sekcja_produkty/bramy.jpg" class="img-responsive"
-                 alt="">
-        </div>
-        <div class="col-xs-12 col-sm-6">
-            <p>Prezentujemy szeroki wybór bram garażowych, zarówno przeznaczonych dla budynków mieszkalnych, jak i
-                przemysłowych. Dostępne są modele segmentowe, uchylne i rozwierne, wszystkie pochodzące od najlepszych
-                na rynku producentów. Wyróżniają się dzięki niezwykłej odporności oraz wysokiej funkcjonalności.</p>
-        </div>
-    </div>
-    <div class="blinds row">
-        <div class="col-xs-12 col-sm-6">>
-            <h3>ROLETY i ŻALUZJE</h3>
-            <img src="images/sekcja_produkty/roleta.jpeg" class="img-responsive"
-                 alt="">
-        </div>
-
-        <div class="col-xs-12 col-sm-6">
-            <p>Naszą ofertę uzupełniają rolety wewnętrzne, pozwalające na zaciemnienie okien w celu ochrony przed
-                nadmiernym słońcem, a także zapewnienia prywatności mieszkańców. Proponujemy rozwiązania nowoczesne,
-                wysoce estetyczne i funkcjonalne. Wykorzystują dodatkową kasetkę, w której chowa się tkanina z
-                prowadnicami.</p>
-        </div>
-    </div>
-
-    <div class="sills row">
-        <div class="col-xs-12 col-sm-6">
-            <h3>PARAPETY</h3>
-            <img src="images/sekcja_produkty/parapet.jpg" class="img-responsive" style="padding-top: 5px"
-                 alt="">
-        </div>
-        <div class="col-xs-12 col-sm-6">
-            <p>Wśród oferowanego wyposażenia znajdują się parapety i blaty wewnętrzne oraz zewnętrzne, wykonane z PCV,
-                granitu, płyt MDF oraz innych trwałych i estetycznych materiałów. Są dostępne w wielu wersjach
-                kolorystycznych, co sprawia, że można je swobodnie dopasować do każdego budynku. Proponujemy rozwiązania
-                od najlepszych producentów.</p>
-        </div>
-    </div>
-</div>
 </div>
 
-<div class="projects">
+<div class="projects" id="projects">
     <h3>Domosfera i jej zrealizowane projekty</h3>
 </div>
-<div class="partners">
+<div class="partners" id="partners">
     <h1>W naszych projektach używamy tylko sprawdzonych materiałów</h1>
 
-<div class="container-fluid">
-    <div class="row">
+    <div class="container-fluid">
+        <div class="row">
 
-    <div class="agmar col-xs-4 col-sm-3 col-sm-offset-1">
-        <img src="images/logos/Agmar.jpg" class="img-responsive"
-             alt="">
-    </div>
-    <div class="centurion agmar col-xs-4 col-sm-3 vcenter">
-        <img src="images/logos/Centurion.png" class="img-responsive"
-             alt="">
-    </div>
+            <div class="agmar col-xs-4 col-sm-3 col-sm-offset-1">
+                <img src="images/logos/Agmar.jpg"
+                     class="img-responsive"
+                     alt="">
+            </div>
+            <div class="centurion agmar col-xs-4 col-sm-3 vcenter">
+                <img src="images/logos/Centurion.png"
+                     class="img-responsive"
+                     alt="">
+            </div>
 
-    <div class="dre agmar col-xs-4 col-sm-3 col-sm-offset-1">
-        <img src="images/logos/DRE.jpg" class="img-responsive"
-             alt="">
-    </div>
+            <div class="dre agmar col-xs-4 col-sm-3 col-sm-offset-1">
+                <img src="images/logos/DRE.jpg"
+                     class="img-responsive"
+                     alt="">
+            </div>
 
-    </div>
-    <div class="row">
-
-
-    <div class="krispol agmar col-xs-4 col-sm-3 col-sm-offset-1">
-        <img src="images/logos/Krispol.jpg" class="img-responsive"
-             alt="">
-    </div>
-
-
-    <div class="pol-skone agmar col-xs-4 col-sm-3">
-        <img src="images/logos/Pol-skone.jpg" class="img-responsive"
-             alt="">
-    </div>
-
-    <div class="voster agmar col-xs-4 col-sm-3 col-sm-offset-1">
-        <img src="images/logos/Voster.jpg" class="img-responsive"
-             alt="">
-    </div>
-    </div>
-    <div class="row">
-        <div class="intenso agmar col-xs-6 col-sm-3 col-sm-offset-1">
-            <img src="images/logos/Intenso.png" class="img-responsive"
-                 alt="">
         </div>
-    <div class="wikęd agmar col-xs-6 col-sm-3 col-sm-offset-1">
-        <img src="images/logos/Wikęd.jpg" class="img-responsive"
-             alt="">
-    </div>
+        <div class="row">
+
+
+            <div class="krispol agmar col-xs-4 col-sm-3 col-sm-offset-1">
+                <img src="images/logos/Krispol.jpg"
+                     class="img-responsive"
+                     alt="">
+            </div>
+
+
+            <div class="pol-skone agmar col-xs-4 col-sm-3">
+                <img src="images/logos/Pol-skone.jpg"
+                     class="img-responsive"
+                     alt="">
+            </div>
+
+            <div class="voster agmar col-xs-4 col-sm-3 col-sm-offset-1">
+                <img src="images/logos/Voster.jpg"
+                     class="img-responsive"
+                     alt="">
+            </div>
+        </div>
+        <div class="row">
+            <div class="intenso agmar col-xs-6 col-sm-3 col-sm-offset-1">
+                <img src="images/logos/Intenso.png"
+                     class="img-responsive"
+                     alt="">
+            </div>
+            <div class="wikęd agmar col-xs-6 col-sm-3 col-sm-offset-1">
+                <img src="images/logos/Wikęd.jpg"
+                     class="img-responsive"
+                     alt="">
+            </div>
+        </div>
     </div>
 </div>
-</div>
-<div class="contact">
+<div class="contact" id="contact">
     <h1>Jeśli zainteresowała Cie nasz oferta </h1>
 
     <div class="mapa">
