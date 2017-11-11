@@ -145,3 +145,25 @@ nav.navbar.navbar-default.navbar-fixed-top.navbar-inverse{
     height: auto;
     margin: 0 auto;
 }
+
+.bgimg-1{
+    position: relative;
+    opacity: 0.6;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bgimg-1{
+    background: url()
+}
+
+
+.caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+}
+
