@@ -154,7 +154,7 @@ nav.navbar.navbar-default.navbar-fixed-top.navbar-inverse{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url('tło.png');
+    background-image: url('images/carousel2.jpg');
     min-height:150px;
 }
 
@@ -168,7 +168,7 @@ nav.navbar.navbar-default.navbar-fixed-top.navbar-inverse{
     background-size: cover;
 }
 .bgimg-1{
-    background-image: url('tło.png');
+    background-image: url('images/carousel2.jpg');
     min-height: 250px;
 }
 
@@ -210,28 +210,30 @@ nav.navbar.navbar-default.navbar-fixed-top.navbar-inverse{
 
 .products{
     background-color: snow;
+    background-color: #2d303b;
+    color: white;
 }
 
 .windows{
-    border: 3px solid #2d303b;
+    border: 3px solid #cc6f22;
     border-radius: 10px 10px 10px 10px;
 }
 
 .doors{
-    border: 3px solid #2d303b;
+    border: 3px solid #cc6f22;
     border-radius: 10px 10px 10px 10px;
 }
 
 .gates{
-    border: 3px solid #2d303b;
+    border: 3px solid #cc6f22;
     border-radius: 10px 10px 10px 10px;
 }
 .blinds{
-    border: 3px solid #2d303b;
+    border: 3px solid #cc6f22;
     border-radius: 10px 10px 10px 10px;
 }
 .sills{
-    border: 3px solid #2d303b;
+    border: 3px solid #cc6f22;
     border-radius: 10px 10px 10px 10px;
     margin-bottom: 1%;
 }
