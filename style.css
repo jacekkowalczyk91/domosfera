@@ -181,10 +181,46 @@ nav.navbar.navbar-default.navbar-fixed-top.navbar-inverse{
 }
 
 .products{
-    background-color: #E4FAE7;
+    background-color: snow;
 }
 
 .windows{
-    border: 2px solid black;
-    border-radius: 10px 10px 10px 10px ;
+    border: 3px solid #2d303b;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.doors{
+    border: 3px solid #2d303b;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.gates{
+    border: 3px solid #2d303b;
+    border-radius: 10px 10px 10px 10px;
+}
+.blinds{
+    border: 3px solid #2d303b;
+    border-radius: 10px 10px 10px 10px;
+}
+.sills{
+    border: 3px solid #2d303b;
+    border-radius: 10px 10px 10px 10px;
+    margin-bottom: 1%;
+}
+
+.description{
+    margin-top: 3%;
+    font-size: 1.2em;
+}
+
+.left h3{
+    margin-right: 60%;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+
+.right h3{
+    margin-left: 60%;
+    margin-bottom: 3%;
+    margin-top: 3%;
 }
