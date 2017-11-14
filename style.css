@@ -146,6 +146,18 @@ nav.navbar.navbar-default.navbar-fixed-top.navbar-inverse{
     margin: 0 auto;
 }
 
+.bgimg-4{
+    position: relative;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('tło.png');
+    min-height:150px;
+}
+
+
 .bgimg-1{
     position: relative;
 
@@ -155,8 +167,8 @@ nav.navbar.navbar-default.navbar-fixed-top.navbar-inverse{
     background-size: cover;
 }
 .bgimg-1{
-    background-image: url('tłoDomosfera.jpg');
-    min-height: 400px;
+    background-image: url('tło.png');
+    min-height: 250px;
 }
 
 
@@ -168,3 +180,11 @@ nav.navbar.navbar-default.navbar-fixed-top.navbar-inverse{
     text-align: center;
 }
 
+.products{
+    background-color: #E4FAE7;
+}
+
+.windows{
+    border: 2px solid black;
+    border-radius: 10px 10px 10px 10px ;
+}
