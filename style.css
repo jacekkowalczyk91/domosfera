@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&subset=latin-ext');
+
 body{
     margin: 0;
     padding: 0 auto;
     background-color: #2d303b;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Raleway', sans-serif;
     color: white;
 }
 
@@ -285,3 +287,16 @@ iframe{
     float: none;
 }
 
+li {
+    list-style-type: none;
+}
+.footerMenu li a {
+    color: #cc6f22;
+}
+.footerMenu li {
+    text-align: left
+}
+.googleMaps {
+    float:none;
+    margin: 0 auto;
+}
