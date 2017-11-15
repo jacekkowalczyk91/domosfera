@@ -15,7 +15,7 @@ body{
 .about p{
     margin: 2%;
     padding: 5% 10%;
-    font-size: 10px;
+    font-size: 1.1em;
 }
 
 .products h2 {
@@ -117,8 +117,11 @@ nav.navbar.navbar-default.navbar-fixed-top.navbar-inverse{
 }
 
 .infoD {
-    background: white;
-
+    background: #2d303b;
+}
+.infoDCol {
+    float: none;
+    margin: 0 auto;
 }
 
 .form-group{
@@ -182,7 +185,7 @@ nav.navbar.navbar-default.navbar-fixed-top.navbar-inverse{
     text-align: center;
 }
 .aboutText {
-    background: #78B4E8;
+    background: #2d303b;
     -webkit-transition: all 200ms ease-in;
     -webkit-transform: scale(1);
     -ms-transition: all 200ms ease-in;
@@ -191,6 +194,8 @@ nav.navbar.navbar-default.navbar-fixed-top.navbar-inverse{
     -moz-transform: scale(1);
     transition: all 200ms ease-in;
     transform: scale(1);
+    float: none;
+    margin: 0 auto;
 }
 
 
@@ -271,3 +276,4 @@ nav.navbar.navbar-default.navbar-fixed-top.navbar-inverse{
 .contact{
     background-color: #2d303b;
 }
+
