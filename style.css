@@ -145,8 +145,11 @@ nav.navbar.navbar-default.navbar-fixed-top.navbar-inverse{
 .row{
     text-align: center;
 }
-.row img{
+.infoD img {
     width: 35vw;
+}
+.products img{
+    width: 20vw;
     height: auto;
     margin: 0 auto;
 }
