@@ -324,3 +324,9 @@ span.visit{
         margin-left: -17%;
     }
 }
+.navbar-collapse .collapse{
+    height: 190px;
+}
+.collapsing{
+    height: 190px;
+}
