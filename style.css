@@ -265,9 +265,6 @@ nav.navbar.navbar-default.navbar-fixed-top.navbar-inverse{
     margin-bottom: 2%;
     margin-top: 2%;
 }
-.visit{
-    background-color: #cc6f22;
-}
 .partners{
     background-color: #70778b;
     border: solid #2d303b;
@@ -300,11 +297,13 @@ iframe{
     margin: 0 auto;
 }
 
-span.visit{
+span.visit {
     list-style-type: none;
-    color: white;
-    font-weight: 600;
+    color: #cc6f22;
+    font-weight: 700;
+    text-decoration: none !important;
 }
+
 .footerText{
     position:absolute;
     left: 38%;
@@ -330,4 +329,7 @@ span.visit{
 }
 .menu_logo{
     margin-top: -15%;
+}
+.deco span{
+    text-underline: #cc6f22;
 }
