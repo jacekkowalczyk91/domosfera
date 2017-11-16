@@ -144,9 +144,11 @@ nav.navbar.navbar-default.navbar-fixed-top.navbar-inverse{
     height: 400px;
     background-color: gray;
 }
-
 .row{
     text-align: center;
+}
+.row h3 {
+    font-weight: 600;
 }
 .infoD img {
     width: 35vw;
@@ -232,6 +234,9 @@ nav.navbar.navbar-default.navbar-fixed-top.navbar-inverse{
     border: 3px solid #cc6f22;
     border-radius: 10px 10px 10px 10px;
 }
+.windows p {
+    margin: 15%;
+}
 
 .doors{
     border: 3px solid #cc6f22;
@@ -255,18 +260,6 @@ nav.navbar.navbar-default.navbar-fixed-top.navbar-inverse{
 .description{
     margin-top: 3%;
     font-size: 1.2em;
-}
-
-.left h3{
-    margin-right: 75%;
-    margin-bottom: 2%;
-    margin-top: 2%;
-}
-
-.right h3{
-    margin-left: 75%;
-    margin-bottom: 2%;
-    margin-top: 2%;
 }
 .partners{
     background-color: #70778b;
