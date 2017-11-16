@@ -306,3 +306,17 @@ span.visit{
     color: white;
     font-weight: 600;
 }
+.footerText{
+    position:absolute;
+    left: 38%;
+    top: 250%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+@media (max-width: 800px){
+    .mapaa{
+        display: none;
+    }
+}
