@@ -8,7 +8,9 @@ body{
 }
 
 
-
+a, a:link, a:visited, a:active, a:hover{
+   text-decoration: none !important;
+}
 .about h1 {
    margin-left: 5%;
 }
@@ -332,4 +334,7 @@ span.visit {
 }
 .deco span{
     text-underline: #cc6f22;
+}
+p.info{
+    border-radius: 5px 5px 5px 5px;
 }
