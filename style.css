@@ -286,7 +286,7 @@ iframe{
     float: none;
 }
 
-li {
+.footerMenu li {
     list-style-type: none;
 }
 .footerMenu li a {
@@ -317,5 +317,10 @@ span.visit{
 @media (max-width: 800px){
     .mapaa{
         display: none;
+    }
+    .footerText{
+        position: relative;
+        margin-right: 60%;
+        margin-left: -17%;
     }
 }
