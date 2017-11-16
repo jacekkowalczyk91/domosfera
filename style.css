@@ -314,19 +314,20 @@ span.visit{
     font-weight: 600;
 }
 
-@media (max-width: 800px){
-    .mapaa{
+@media (max-width: 800px) {
+    .mapaa {
         display: none;
     }
-    .footerText{
+
+    .footerText {
         position: relative;
         margin-right: 60%;
         margin-left: -17%;
     }
 }
-.navbar-collapse .collapse{
-    height: 190px;
+.navbar .navbar-default .navbar-fixed-top .navbar-inverse{
+    background-color:rgba(0,0,0,.6);
 }
-.collapsing{
-    height: 190px;
+.menu_logo{
+    margin-top: -15%;
 }
