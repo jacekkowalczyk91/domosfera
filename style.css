@@ -319,7 +319,15 @@ span.visit {
         margin-right: 60%;
         margin-left: -17%;
     }
+    .bgimg-1{
+        height: 100px;
+    }
+    .bgimg-4{
+    height:100px;
+    }
 }
+
+
 .navbar .navbar-default .navbar-fixed-top .navbar-inverse{
     background-color:rgba(0,0,0,.6);
 }
@@ -329,6 +337,6 @@ span.visit {
 .deco span{
     text-underline: #cc6f22;
 }
-p.info{
+p.info {
     border-radius: 5px 5px 5px 5px;
 }
