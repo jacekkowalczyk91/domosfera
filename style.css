@@ -41,8 +41,6 @@ a, a:link, a:visited, a:active, a:hover{
 
 .navbar {
 
-    background: #080808;
-
     background: rgba(8, 8, 8, .7);
 
     padding-bottom: 1em;
@@ -387,4 +385,27 @@ img.carousel2{
 
 img.carousel3{
     margin-left: 4.5% !important;
+}
+
+@media only screen and (max-width: 480px) {
+    .nav.navbar-nav.navbar-right li:hover::after {
+        width: 30%;
+        transition: width .4s;
+    }
+    .navbar {
+
+
+        background: rgba(8, 8, 8, .5);
+
+        padding-bottom: 1em;
+    }
+    #navbar-collapse-1{
+        background: rgba(8, 8, 8, .5);
+    }
+}
+@media only screen and (max-width: 320px) {
+    ul li:hover::after {
+        width: 30%;
+        transition: width .4s;
+    }
 }
