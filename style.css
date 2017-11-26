@@ -235,7 +235,7 @@ nav.navbar.navbar-default.navbar-fixed-top.navbar-inverse{
     border-radius: 10px 10px 10px 10px;
 }
 .windows p {
-    margin: 15%;
+    margin: 10% 12% 12% 12%;
 }
 
 .doors{
@@ -339,4 +339,35 @@ span.visit {
 }
 p.info {
     border-radius: 5px 5px 5px 5px;
+}
+.doors p{
+    margin: 15%;
+}
+.gates p {
+    margin: 15%;
+}
+.blinds p {
+    margin: 15%;
+}
+.sills p {
+    margin: 15%;
+}
+.doors div img {
+    width: 30%;
+    height: 30%;
+    margin-top: 5%;
+}
+.windows div img {
+    width: 30%;
+    height: 30%;
+    margin-top: 3%;
+}
+.gates div img {
+    margin-top: 8%;
+}
+.blinds div img {
+    margin-top: 15%;
+}
+.sills div img {
+    margin-top: 10%;
 }
