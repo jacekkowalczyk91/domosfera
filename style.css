@@ -166,7 +166,7 @@ nav.navbar.navbar-default.navbar-fixed-top.navbar-inverse{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url('images/carousel2.jpg');
+    background-image: url('images/bramy.jpg');
     min-height:150px;
 }
 
@@ -180,7 +180,7 @@ nav.navbar.navbar-default.navbar-fixed-top.navbar-inverse{
     background-size: cover;
 }
 .bgimg-1{
-    background-image: url('images/carousel2.jpg');
+    background-image: url('images/salon.jpg');
     min-height: 250px;
 }
 
@@ -262,12 +262,18 @@ nav.navbar.navbar-default.navbar-fixed-top.navbar-inverse{
     font-size: 1.2em;
 }
 .partners{
-    background-color: #70778b;
+    background-color: rgb(227,227,227);
     border: solid #2d303b;
     border-radius: 5px 5px 5px 5px;
     color: white;
 }
 
+.partners h1{
+    color: black;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    margin-left: 1%;
+}
 .contact{
     background-color: #2d303b;
 }
