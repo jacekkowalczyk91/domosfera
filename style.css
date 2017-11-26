@@ -112,7 +112,7 @@ ul li a{
     height: 10%;
 }
 nav.navbar.navbar-default.navbar-fixed-top.navbar-inverse{
-    height: 9%;
+    height: 11%;
     line-height: 3%;
 }
 .nav.navbar-nav.navbar-right li {
@@ -376,4 +376,15 @@ p.info {
 }
 .sills div img {
     margin-top: 10%;
+}
+img.carousel1 {
+    margin-left: 4.5% !important;
+}
+
+img.carousel2{
+    margin-left: 4.5% !important;
+}
+
+img.carousel3{
+    margin-left: 4.5% !important;
 }
